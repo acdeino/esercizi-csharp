@@ -6,10 +6,10 @@ Console.WriteLine("Hello World!");
 Console.WriteLine("\n");
 
 //Experiments with strings:
-string aFriend("Bill");
+string aFriend = "Bill";
 Console.WriteLine(aFriend);
 
-aFriend2 = "Maira";
+string aFriend2 = "Maira";
 Console.WriteLine(aFriend2);
 
 Console.WriteLine("Hello, " + aFriend + " and " + aFriend2);
@@ -23,5 +23,5 @@ string secondFriend = "Steven";
 Console.WriteLine($"My friends are {firstFriend} and {secondFriend}");
 
 //if we wanted to count the length of the given strings, we could write:
-Console.WriteLine($"The name of {firstFriend} has {firstFriend.length} characters.");
-Console.WriteLine($"Conversely, the name of {secondFriend} has {secondFriend.length} characters.");
+Console.WriteLine($"The name of {firstFriend} has {firstFriend.Length} characters.");
+Console.WriteLine($"Conversely, the name of {secondFriend} has {secondFriend.Length} characters.");
