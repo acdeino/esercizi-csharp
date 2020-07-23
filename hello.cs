@@ -1,6 +1,8 @@
+//Hello world without class declaration:
 Console.WriteLine("Hello World!");
 Console.WriteLine("\n");
 
+//Experiments with strings: 
 string aFriend("Bill");
 Console.WriteLine(aFriend);
 
