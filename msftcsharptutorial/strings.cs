@@ -1,8 +1,8 @@
 //Experiments with strings:
-string aFriend("Bill");
+string aFriend = "Bill";
 Console.WriteLine(aFriend);
 
-aFriend2 = "Maira";
+string aFriend2 = "Maira";
 Console.WriteLine(aFriend2);
 
 Console.WriteLine("Hello, " + aFriend + " and " + aFriend2);
