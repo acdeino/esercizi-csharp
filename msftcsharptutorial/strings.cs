@@ -41,3 +41,18 @@ Console.WriteLine(sayHello);
 
 Console.WriteLine(sayHello.ToUpper());
 Console.WriteLine(sayHello.ToLower());
+
+Console.WriteLine("\n");
+
+//Booleans
+
+string songLyrics = "You say Goodbye, I say Hello";
+Console.WriteLine(songLyrics.Contains("Goodbye")); //true
+Console.WriteLine(songLyrics.Contains("goodbye")); //false
+Console.WriteLine(songLyrics.Contains("Hello"));   //true
+Console.WriteLine(songLyrics.Contains("greetings")); //false
+
+Console.WriteLine(songLyrics.StartsWith("You")); //true
+Console.WriteLine(songLyrics.StartsWith("Goodbye")); //false
+Console.WriteLine(songLyrics.EndsWith("Hello")); //true
+Console.WriteLine(songLyrics.EndsWith("and")); //false
